@@ -6902,7 +6902,7 @@ break
 case 6:e=H.b([],a0)
 for(a0=t.lI,d=0;a2=a1.length,d<a2;++d){c=H.b([],a0)
 for(b=0;a2=a1[d],a3=a2.cx,b<a3.length;++b){a2=a3[b]
-if(a2.d===18)c.push(a2)}a2.cx=c}for(o=0;o<a1.length;a1.length===a2||(0,H.M)(a1),++o){a=a1[o]
+if(a2.d===18&&a2.c>0)c.push(a2)}a2.cx=c}for(o=0;o<a1.length;a1.length===a2||(0,H.M)(a1),++o){a=a1[o]
 if(a.cx.length!==0)e.push(a)}q=e
 s=1
 break
